@@ -8,9 +8,9 @@ public class ExercicisMultiproces1_ParellSenar {
         int nombre = scanner.nextInt();
 
         if (nombre % 2 == 0) {
-            System.out.println("El nombre " + nombre + " és parell");
+            System.out.println("Parell");
         } else {
-            System.out.println("El nombre " + nombre + " és senar");
+            System.out.println("Senar");
         }
 
         scanner.close();
